@@ -1,14 +1,16 @@
-
 <h>Attempt to use text field to transfer information across pages</h>
 
-<input id="textName" value="nameHere">
+<input id="textName" value="Name Here">
 
-<button onclick="textField()">transferName</button>
+<button onclick="textField()">Transfer Name</button>
 
 <p id="transferingName"></p>
 
 <script>
+ 
 function textField() {
 var TF = document.getElementById("textName").value;
 document.getElementById("transferingName").innerHTML = TF;
 }
+ 
+ </script>
